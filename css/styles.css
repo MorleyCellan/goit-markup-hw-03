@@ -39,6 +39,10 @@ body {
   background-color: var(--white);
 }
 
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -53,6 +57,25 @@ body {
 
 /* || BLOCKS */
 
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.header-container {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -61,6 +84,21 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-item {
+  padding: 24px 0;
+}
+
+.contact {
+  display: flex;
+  gap: 40px;
 }
 
 /* || ELEMENTS */
