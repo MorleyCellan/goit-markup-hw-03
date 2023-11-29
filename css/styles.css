@@ -118,7 +118,7 @@ img {
   padding: 120px 0;
 }
 
-.work-section {
+.section-work {
   padding: 120px;
 }
 
@@ -218,8 +218,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .item-title {
@@ -227,12 +225,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card-container {
   padding: 32px 0;
+  text-align: center;
 }
 
 /* || MODIFIER */
@@ -297,16 +294,32 @@ img {
 
 .card-item {
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* FOOTER SECTION */
 
 .footer {
   background-color: var(--navy-blue);
+  padding: 100px 0;
 }
 
-.footer .span,
+/* .footer .span,
 .footer .item-text {
+  color: var(--cloud);
+} */
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo__footer {
+  color: var(--cloud);
+}
+
+.footer .item-text {
+  max-width: 264px;
   color: var(--cloud);
 }
 
