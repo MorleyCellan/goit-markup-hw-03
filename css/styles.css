@@ -1,16 +1,37 @@
-/* CSS VARIABLES */
+/* || RESET */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* || VARIABLES */
+
 :root {
+  /* color */
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
-  --green: ##31d0aa;
   --slate: #434455;
-  --light-slate: #8e8f99;
-  --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
   --white: #ffffff;
-  --dairy: #fcfcfc;
+  --cornflower: #e7e9fc;
 }
+
+/* || GENERAL STYLES */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -18,7 +39,19 @@ body {
   background-color: var(--white);
 }
 
-/* GENERAL STYLES */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* || BLOCKS */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -28,6 +61,37 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+}
+
+/* || ELEMENTS */
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--ocean);
+}
+
+.contact-link {
+  /* font-style: normal; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--ocean);
+}
+
+.logo__header {
+  color: var(--navy-blue);
 }
 
 .section-title {
@@ -54,50 +118,9 @@ body {
   color: var(--slate);
 }
 
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
-
 /* END OF GENERAL STYLES */
 
 /* HEADER SECTION */
-
-.nav .span {
-  color: var(--navy-blue);
-}
-
-.header-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--ocean);
-}
-
-.address {
-  font-style: normal;
-}
-
-.address-link {
-  /* font-style: normal; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: inherit;
-}
-
-.address-link:hover,
-.address-link:focus {
-  color: var(--ocean);
-}
 
 /* HERO SECTION */
 
