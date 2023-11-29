@@ -63,6 +63,7 @@ img {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .container {
@@ -101,6 +102,11 @@ img {
   gap: 40px;
 }
 
+.address {
+  display: flex;
+  align-items: center;
+}
+
 /* || ELEMENTS */
 
 .menu-link {
@@ -109,6 +115,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -117,10 +124,9 @@ img {
 }
 
 .contact-link {
-  /* font-style: normal; */
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--navy-blue);
 }
 
 .contact-link:hover,
